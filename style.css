@@ -1,11 +1,12 @@
-.jupiter{
-background-color: rgb(4, 255, 0);
-height: 200px;
+.riga {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    
 }
-b{
-    color:rgb(34, 37, 198);
-    font-size: 100px;
-    }
-.foto{
-
+.colonna {
+    display: table-cell;
+    background-color: red; /*Optional*/
+    
 }
